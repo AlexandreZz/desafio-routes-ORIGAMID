@@ -1,4 +1,4 @@
-# desafio-routes-ORIGAMID
+# DESAFIO-ROUTE-REACT-ORIGAMID
 
 
 React desafio do curso da origamid, Busca os produtos e informa nome, descrição e preço.
