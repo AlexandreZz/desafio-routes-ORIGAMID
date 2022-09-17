@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/desafio-routes-ORIGAMID/static/css/main.33b523a0.css",
+    "main.js": "/desafio-routes-ORIGAMID/static/js/main.062b7ae8.js",
+    "static/media/datilografia.jpg": "/desafio-routes-ORIGAMID/static/media/datilografia.cb0f65c0e45e2d4b5b1b.jpg",
+    "static/media/loading.gif": "/desafio-routes-ORIGAMID/static/media/loading.05931ae66b1cddbfcb0c.gif",
+    "index.html": "/desafio-routes-ORIGAMID/index.html",
+    "main.33b523a0.css.map": "/desafio-routes-ORIGAMID/static/css/main.33b523a0.css.map",
+    "main.062b7ae8.js.map": "/desafio-routes-ORIGAMID/static/js/main.062b7ae8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b523a0.css",
+    "static/js/main.062b7ae8.js"
+  ]
+}
