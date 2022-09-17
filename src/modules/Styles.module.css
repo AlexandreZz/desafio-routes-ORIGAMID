@@ -1,0 +1,165 @@
+/*****  CLASSES PADRAO *****/
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 2%;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+/*****  CLASSES PADRAO  *****/
+
+/*****  HEADER CABECALHO *****/
+
+.cabecalho {
+  margin-top: 80px;
+}
+
+.cabecalho ul li {
+  margin: 10px;
+  transition: background 0.4s;
+  border-radius: 5px;
+  background-color: rgb(225, 225, 225);
+  display: inline-block;
+}
+
+.cabecalho ul li a {
+  display: block;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.cabecalho ul li:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+/*****  HEADER CABECALHO *****/
+
+/*****  SESSÃO CONTATO *****/
+
+.contato {
+  width: 100%;
+  height: auto;
+  padding: 50px 2% 0 2%;
+}
+
+.one,
+.two {
+  margin: 10px 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.one {
+  width: 45%;
+  height: 470px;
+  border-radius: 8px;
+}
+
+.two {
+  margin-top: 45px;
+}
+
+.two h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.two ul li {
+  font-size: 15px;
+  margin: 10px 0 10px 30px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+}
+
+.two ul li::before {
+  content: '';
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: -30px;
+  background-color: rgb(220, 220, 220);
+}
+
+/*****  SESSÃO CONTATO *****/
+
+/*****  SESSÃO LISTAGEM DE PRODUTOS HOME *****/
+
+.listProdutos {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.1rem;
+}
+
+.itens {
+  margin: 10px 0;
+}
+
+.itens img {
+  border-radius: 8px;
+}
+
+.itens span {
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 15px 10px 10px 20px;
+  text-align: left;
+}
+
+.loadingImage {
+  display: block;
+  margin: 50px auto 0 auto;
+  width: 90px;
+}
+
+/*****  SESSÃO LISTAGEM DE PRODUTOS HOME *****/
+
+/*****  SESSÃO DESCRICAO DO PRODUTO *****/
+
+.imageProduct {
+  width: 50%;
+}
+
+.imageProduct img {
+  max-width: 90%;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.descricao {
+  width: 50%;
+  text-align: left;
+  margin: 30px 0 0 20px;
+}
+
+.descricao h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.descricao span {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  color: green;
+}
+
+.descricao p {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/*****  SESSÃO DESCRICAO DO PRODUTO *****/

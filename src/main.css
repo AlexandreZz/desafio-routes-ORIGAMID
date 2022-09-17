@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(240, 240, 240);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.animaLeft {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: animarleft 0.4s ease forwards;
+}
+
+@keyframes animarleft {
+  to {
+    opacity: inherit;
+    transform: inherit;
+  }
+}
